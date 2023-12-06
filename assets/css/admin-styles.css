@@ -1,0 +1,13 @@
+
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+}
+.col-md-6 {
+    width: 50%;
+    flex: 0 0 50%;
+}
+.form-control {
+	width: 100%;
+}
