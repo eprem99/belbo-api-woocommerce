@@ -1,0 +1,36 @@
+
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+}
+.col-md-6 {
+    width: 50%;
+    flex: 0 0 50%;
+}
+.form-control {
+	width: 100%;
+}
+#container {
+	height: 500px;
+	width: 90%;
+	overflow-x: scroll;
+	padding: 20px;
+	border: 1px solid;
+}
+#main.loader:before {
+    content: "";
+	background-image: url('../img/loader.svg');
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+}
+#main.loader {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+}
